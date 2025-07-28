@@ -1,13 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f6fb;
+  background-color: #fdf4fc;
   color: #333;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #6a4c93; /* morado pastel */
+  color: #8653a5; /* morado pastel */
 }
 
 .ciclo {
@@ -15,34 +15,34 @@ h1 {
   padding: 15px;
   border: 2px solid #ddd;
   border-radius: 12px;
-  background-color: #fff0ff;
+  background-color: #fbeaff;
 }
 
 .ciclo h2 {
   margin-bottom: 10px;
-  color: #4b2c66;
+  color: #6a4c93;
 }
 
 .materia {
   padding: 10px;
   margin: 5px 0;
   border-radius: 10px;
-  background-color: #e6d5f7;
+  background-color: #e7d2f8;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .materia:hover {
-  background-color: #d2bde8;
+  background-color: #d7b7ec;
 }
 
 .materia.aprobada {
-  background-color: #d8b0dd !important; /* tono rosado pastel más suave */
+  background-color: #d3a6ec; /* aprobado en morado pastel */
   color: white;
 }
 
 .materia.electiva {
-  background-color: #f5d0e3;
+  background-color: #efd3f7; /* distinto para electiva */
 }
 
 .materia.bloqueada {

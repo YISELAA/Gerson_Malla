@@ -27,7 +27,7 @@ h1 {
   padding: 10px;
   margin: 5px 0;
   border-radius: 10px;
-  background-color: #e6d5f7; /* morado pastel base */
+  background-color: #e6d5f7;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -37,12 +37,12 @@ h1 {
 }
 
 .materia.aprobada {
-  background-color: #c6a6dd; /* morado más fuerte al aprobar */
+  background-color: #c6a6dd;
   color: white;
 }
 
 .materia.electiva {
-  background-color: #eed6f3; /* diferente tono para electivas */
+  background-color: #f5d0e3;
 }
 
 .materia.bloqueada {

@@ -6,7 +6,7 @@ const materias = [
       { codigo: "INE178", nombre: "Introducción a la Economía I", uv: 4, electiva: false },
       { codigo: "MAT178", nombre: "Matemática I", uv: 5, electiva: false },
       { codigo: "TAD178", nombre: "Teoría Administrativa I", uv: 3, electiva: false },
-    ],
+    ]
   },
   {
     ciclo: 2,
@@ -15,7 +15,7 @@ const materias = [
       { codigo: "MAT278", nombre: "Matemática II", uv: 5, electiva: false, prerequisitos: ["MAT178"] },
       { codigo: "SOG178", nombre: "Sociología General", uv: 3, electiva: false, prerequisitos: ["FIG178"] },
       { codigo: "TAD278", nombre: "Teoría Administrativa II", uv: 3, electiva: false, prerequisitos: ["TAD178"] },
-    ],
+    ]
   },
   {
     ciclo: 3,
@@ -25,7 +25,7 @@ const materias = [
       { codigo: "MAT378", nombre: "Matemática III", uv: 5, electiva: false, prerequisitos: ["MAT278"] },
       { codigo: "MIC178", nombre: "Microeconomía I", uv: 4, electiva: false, prerequisitos: ["INE278", "MAT278"] },
       { codigo: "TDI178", nombre: "Técnicas de Investigación", uv: 3, electiva: false, prerequisitos: ["INE278", "SOG178"] },
-    ],
+    ]
   },
   {
     ciclo: 4,
@@ -35,7 +35,7 @@ const materias = [
       { codigo: "ING278", nombre: "Inglés II", uv: 2, electiva: false, prerequisitos: ["ING178"] },
       { codigo: "MAC178", nombre: "Macroeconomía I", uv: 4, electiva: false, prerequisitos: ["MIC178", "TDI178"] },
       { codigo: "MAF178", nombre: "Matemática Financiera", uv: 5, electiva: false, prerequisitos: ["MAT378"] },
-    ],
+    ]
   },
   {
     ciclo: 5,
@@ -45,7 +45,7 @@ const materias = [
       { codigo: "DME278", nombre: "Derecho Mercantil II", uv: 3, electiva: false, prerequisitos: ["DME178"] },
       { codigo: "EST178", nombre: "Estadística I", uv: 5, electiva: false, prerequisitos: ["MAF178"] },
       { codigo: "PSO178", nombre: "Psicología Organizacional", uv: 4, electiva: false, prerequisitos: ["DME178", "TDI178"] },
-    ],
+    ]
   },
   {
     ciclo: 6,
@@ -55,7 +55,7 @@ const materias = [
       { codigo: "DLA178", nombre: "Derecho Laboral", uv: 3, electiva: false, prerequisitos: ["DME278"] },
       { codigo: "EST278", nombre: "Estadística II", uv: 5, electiva: false, prerequisitos: ["EST178"] },
       { codigo: "SIO178", nombre: "Sistemas Organizacionales", uv: 3, electiva: false, prerequisitos: ["EST178", "PSO178"] },
-    ],
+    ]
   },
   {
     ciclo: 7,
@@ -64,7 +64,7 @@ const materias = [
       { codigo: "ASU178", nombre: "Administración Superior", uv: 3, electiva: false, prerequisitos: ["SIO178"] },
       { codigo: "CVA178", nombre: "Costeo Variable", uv: 4, electiva: false, prerequisitos: ["CCO278", "EST278"] },
       { codigo: "MER178", nombre: "Mercadotecnia I", uv: 4, electiva: false, prerequisitos: ["EST278", "MAC178"] },
-    ],
+    ]
   },
   {
     ciclo: 8,
@@ -73,7 +73,7 @@ const materias = [
       { codigo: "APE278", nombre: "Administración de Personal II", uv: 4, electiva: false, prerequisitos: ["APE178"] },
       { codigo: "EDP178", nombre: "Ética y Desarrollo Profesional", uv: 3, electiva: false, prerequisitos: ["APE178"] },
       { codigo: "MER278", nombre: "Mercadotecnia II", uv: 4, electiva: false, prerequisitos: ["MER178"] },
-    ],
+    ]
   },
   {
     ciclo: 9,
@@ -83,7 +83,7 @@ const materias = [
       { codigo: "APU178", nombre: "Administración Pública", uv: 4, electiva: false, prerequisitos: ["APE278"] },
       { codigo: "MIN178", nombre: "Mercadeo Internacional", uv: 4, electiva: true, prerequisitos: ["MER278"] },
       { codigo: "SCO178", nombre: "Sistemas Computacionales", uv: 4, electiva: false, prerequisitos: ["ASU178"] },
-    ],
+    ]
   },
   {
     ciclo: 10,
@@ -93,7 +93,7 @@ const materias = [
       { codigo: "FEP178", nombre: "Formulación y Evaluación de Proyectos", uv: 5, electiva: false, prerequisitos: ["ADF178", "APR178"] },
       { codigo: "SFI178", nombre: "Seminario de Finanzas", uv: 4, electiva: true, prerequisitos: ["ADF178"] },
       { codigo: "TPR178", nombre: "Técnicas Presupuestarias", uv: 5, electiva: false, prerequisitos: ["ADF178"] },
-    ],
+    ]
   },
 ];
 
